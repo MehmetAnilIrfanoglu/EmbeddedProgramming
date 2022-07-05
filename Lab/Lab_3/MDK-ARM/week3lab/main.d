@@ -1,0 +1,10 @@
+week3lab\main.o: ../Src/main.c
+week3lab\main.o: C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\stm32f10x.h
+week3lab\main.o: .\RTE\_week3lab\RTE_Components.h
+week3lab\main.o: ../Drivers/CMSIS/Include/core_cm3.h
+week3lab\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+week3lab\main.o: ../Drivers/CMSIS/Include/cmsis_version.h
+week3lab\main.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+week3lab\main.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+week3lab\main.o: C:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\Device\Include\system_stm32f10x.h
+week3lab\main.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdio.h

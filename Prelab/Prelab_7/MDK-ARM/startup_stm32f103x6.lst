@@ -451,18 +451,18 @@ ARM Macro Assembler    Page 7
               00000200 
               00000000 
 Command Line: --debug --xref --diag_suppress=9931 --cpu=Cortex-M3 --apcs=interw
-ork --depend=prelab_7\startup_stm32f103x6.d -oprelab_7\startup_stm32f103x6.o -I
-.\RTE\_prelab_7 -IC:\Users\Abdulkadir\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\C
+ork --depend=prelab7\startup_stm32f103x6.d -oprelab7\startup_stm32f103x6.o -I.\
+RTE\_prelab7 -IC:\Users\Lenovo\AppData\Local\Arm\Packs\ARM\CMSIS\5.8.0\CMSIS\Co
 
 
 
 ARM Macro Assembler    Page 8 
 
 
-MSIS\Core\Include -IC:\Users\Abdulkadir\AppData\Local\Arm\Packs\Keil\STM32F1xx_
-DFP\2.4.0\Device\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VER
-SION SETA 536" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_LD SETA 1" --p
-redefine="_RTE_ SETA 1" --list=startup_stm32f103x6.lst startup_stm32f103x6.s
+re\Include -IC:\Users\Lenovo\AppData\Local\Arm\Packs\Keil\STM32F1xx_DFP\2.4.0\D
+evice\Include --predefine="__EVAL SETA 1" --predefine="__UVISION_VERSION SETA 5
+36" --predefine="_RTE_ SETA 1" --predefine="STM32F10X_LD SETA 1" --predefine="_
+RTE_ SETA 1" --list=startup_stm32f103x6.lst startup_stm32f103x6.s
 
 
 

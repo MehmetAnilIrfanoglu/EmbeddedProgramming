@@ -88,24 +88,27 @@ int main(void)
   MX_GPIO_Init();
   MX_USART1_UART_Init();
   /* USER CODE BEGIN 2 */
-uint8_t data[1];
-uint8_t data_receive[1];
+	
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-	data[0] = 'A';
+	
+	uint8_t UART1_rxBuffer[1] = {0};
+	HAL_UART_Receive_IT (&huart1, data_receive, 1);
   while (1)
   {
-		HAL_UART_Transmit(&huart1, data_receive, sizeof(data), HAL_MAX_DELAY);
-		data[0] += 1;
-		HAL_Delay(1000);
-		HAL_UART_Receive(&huart1, data_receive, sizeof(data_receive), HAL_MAX_DELAY);
-		data_receive[0] += 1;
+		
+		
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
   }
+	
+	
+
+	
+	
   /* USER CODE END 3 */
 }
 
